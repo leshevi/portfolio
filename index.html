@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <section class="banner" id="home">
+      <div class="imgSidebar">
+        <img src="image/maury.jpg" alt="">
+      </div>
+      <div class="contentBx">
+        <h5 class="logoText">Моё портфолио</h5>
+        <div>
+          <h4><span>Привет!!!</span></h4>
+          <h2>Я Лещева Ольга</h2>
+          <h4>И я очень хочу стать хорошим devops!</h4>
+          <p>У меня есть свободное время и сильное желание преуспеть в этом начинании!</p>
+          <a href="#" class="btn">Обо мне</a>
+        </div>
+        <ul class="sci">
+          <li><a href="https://t.me/lesheviO"><img src="icon/telegram_logo_icon.png"></a></li>
+          <li><a href="https://gitlab.com/Finalproject2943838"><img src="icon/gitlab_icon.png"></a></li>
+          <li><a href="https://github.com/leshevi?page=2&tab=repositories"><img src="icon/github_icon.png"></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+       <div class="title white">
+        <h2>Обо мне</h2>
+        <p>Текст обо мне</p>
+       </div>
+       <div class="content">
+         <div class="textBx">
+          <p>Это фотография на моей работе. Cтаж
+            29 лет. После не очень хороших изменений  в моей жизни, решила поменять её в корне.
+            Прошла курс в Geekbrains на "1С разработчика", Devops и хотела бы развиваться
+            по новому направлению в IT индустрии. Для этого есть желание, время, упёртость
+             и способности. Хочется приносить пользу и изучать новое.</p>
+         </div>
+         <div class="imgBx">
+          <img src="image/abor.jpg" alt="">
+         </div>
+       </div>
+    </section>
+    <section class="services" id="services">
+      <div class="title">
+        <h2>Сервисы</h2>
+        <p>Это приложения в которых я немного разбираюсь и изучала в Geekbrains</p>
+       </div>
+       <div class="content">
+        <div class="servicesBx">
+          <img src="icon/icon1.png">
+          <h2>Docker</h2>
+          <p><a href="https://www.docker.com/">Ссыль</a></p>
+        </div>
+        <div class="servicesBx">
+          <img src="icon/icon2.png">
+          <h2>Grafana</h2>
+          <p><a href="https://grafana.com/">Ссыль</a></p>
+        </div>
+        <div class="servicesBx">
+          <img src="icon/icon3.png">
+          <h2>Msql</h2>
+          <p><a href="https://www.mysql.com/">Ссыль</a></p>
+        </div>
+        <div class="servicesBx">
+          <img src="icon/icon4.png">
+          <h2>Prometheus</h2>
+          <p><a href="https://prometheus.io/">Ссыль</a></p>
+        </div>
+        <div class="servicesBx">
+          <img src="icon/icon5.png">
+          <h2>Kubernetes</h2>
+          <p><a href="https://kubernetes.io/ru/">Ссыль</a></p>
+        </div>
+        <div class="servicesBx">
+          <img src="icon/icon6.png">
+          <h2>Nginx</h2>
+          <p><a href="https://nginx.org/ru/">Ссыль</a></p>
+        </div>
+        <div class="servicesBx">
+          <img src="icon/icon7.png">
+          <h2>Swarm</h2>
+          <p><a href="https://docs.docker.com/engine/swarm/">Ссыль</a></p>
+        </div>
+        <div class="servicesBx">
+          <img src="icon/icon8.png">
+          <h2>Debian</h2>
+          <p><a href="https://www.debian.org/index.ru.html">Ссыль</a></p>
+        </div>
+        <div class="servicesBx">
+          <img src="icon/icon9.png">
+          <h2>Wordpress</h2>
+          <p><a href="https://ru.wordpress.org/">Ссыль</a></p>
+        </div>
+        <div class="servicesBx">
+          <img src="icon/icon10.png">
+          <h2>Zabbix</h2>
+          <p><a href="https://www.zabbix.com/ru">Ссыль</a></p>
+        </div>
+       </div>
+    </section>
+    <section class="work" id="work">
+      <div class="title">
+        <h2>Работа</h2>
+        <p>Итоговый проект в Geekbrains</p>
+       </div>
+       <div class="content">
+        <div class="workBx">
+          <div class="imgBx">
+            <img src="image/Схема.png">
+          </div>
+          <div class="textBx">
+            <p>
+              <a href="https://cloud.mail.ru/public/betp/Qh56pV4So">Задание</a>
+            и
+              <a href="https://cloud.mail.ru/public/4JbJ/6c9YcK4o3">доклад</a>.
+             </p>
+          </div>
+        </div>
+       </div>
+    </section>
+    
+    <div class="copyright">
+      <p>leshevi март 2023</p>
+    </div>
+    <div class="sidebar">
+       <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">Обо мне</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Сервисы</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Работа</a></li>
+       </ul>
+    </div>
+    <script src="script.js"></script>
+   </body>
+</html>
